@@ -17,7 +17,7 @@ const main = () => {
         // console.log(deck)
         // console.log(`${face} of ${suit}`)
         deck.push(`${face} of ${suit}`)
-        // console.log(face + ' of ' + suit) 
+        // console.log(face + ' of ' + suit)
       }
     }
   }
@@ -37,7 +37,6 @@ const main = () => {
     console.log(randomCard)
 
     return randomCard
-    // const oneLineVersion = Math.floor(Math.random() * 52)
   }
   const randomSecondCard = () => {
     createDeck()
